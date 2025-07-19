@@ -1,0 +1,18 @@
+{
+  "name": "faketasksapi",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start":"json-server --watch db.json",
+    "dev": "json-server --watch db.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0",
+    "json-server": "^1.0.0-beta.3"
+  }
+}
